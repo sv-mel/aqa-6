@@ -24,6 +24,10 @@ public class Car {
     public Car(String newType) {
         this.type = newType;
     }
+    //присвоение автомобилю типа
+    public void setYear(int ourYear) {
+        this.year = ourYear;
+    }
 
     //получение цвета по умолчанию
     public String getColor(){

@@ -15,6 +15,8 @@ public class Main {
         System.out.println(car1.type);
         System.out.println(car2.type);
 
+        car1.setYear(1998);
+        System.out.println("Год выпуска авто " + car1.year);
         car2.startCar();
         String[] owners = new String[] {"Иванов", "Петров", "Сидоров"};
         car1.setOwners(owners);
