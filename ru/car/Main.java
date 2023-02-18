@@ -1,12 +1,11 @@
 package ru.car;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
         Car car1 = new Car("van");
-        Car car2 = new Car("mini");
+        Car car2 = new Car("mini1");
 
         car2.setColor("black");
         System.out.println(car1.getColor());
